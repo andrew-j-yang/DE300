@@ -12,17 +12,14 @@ RUN useradd -m robert
 WORKDIR /app
 RUN chown -R robert /app
 
-
-
-
 # Create a virtual environment
 RUN python -m venv /venv
 
 # Activate the virtual environment
 ENV PATH="/venv/bin:${PATH}"
 
-RUN pip install pandas sqlalchemy psycopg2-binary jupyter pyarrow
-
+# Install python packages
+RUN pip install jupyter matplotlib pandas numpy scipy
 
 #switch to non-root user
 USER robert

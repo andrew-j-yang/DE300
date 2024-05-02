@@ -6,6 +6,8 @@ set -e
 # Give docker permission
 sudo chmod 666 /var/run/docker.sock
 
+# Installing Packages
+pip install matplotlib pandas numpy scipy
 
 # Create a Docker volume for data persistence
 echo "Creating Docker volume: homework1-heart-disease"

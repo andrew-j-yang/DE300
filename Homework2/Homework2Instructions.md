@@ -1,4 +1,4 @@
-Homework 1 Run Instructions
+Homework 2 Run Instructions
 
 Enter the command: bash run.sh
 

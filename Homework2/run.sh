@@ -7,7 +7,7 @@ set -e
 sudo chmod 666 /var/run/docker.sock
 
 # Installing Packages
-pip install matplotlib pandas numpy scipy scrapy sklearn
+pip install matplotlib pandas numpy scipy scrapy scikit-learn
 
 # Create a Docker volume for data persistence
 echo "Creating Docker volume: homework1-heart-disease"

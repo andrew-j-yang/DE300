@@ -19,7 +19,7 @@ RUN python -m venv /venv
 ENV PATH="/venv/bin:${PATH}"
 
 # Install python packages
-RUN pip install jupyter matplotlib pandas numpy scipy scrapy scikit-learn
+RUN pip install jupyter matplotlib numpy scipy scrapy pandas scikit-learn 
 
 #switch to non-root user
 USER robert

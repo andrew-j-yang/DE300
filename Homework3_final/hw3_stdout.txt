@@ -1,5 +1,5 @@
-The best model is Logistic Regression with an accuracy of 1.00
-Test set accuracy: 1.00
+The best model is Logistic Regression with an accuracy of 0.72
+Test set accuracy: 0.72
 /mnt/yarn/usercache/hadoop/appcache/application_1716434908654_0001/container_1716434908654_0001_01_000001/pyspark.zip/pyspark/sql/context.py:159: FutureWarning: Deprecated in 3.0.0. Use SparkSession.builder.getOrCreate() instead.
 Classification report on test set:
 [[35.  0.]

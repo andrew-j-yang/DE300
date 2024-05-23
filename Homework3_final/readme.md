@@ -8,3 +8,4 @@ Instructions to run
 6) type the application location as 's3://andrewawsbucket/homework3_andrew_latest.py'
 7) type the spark-submit options as '--master yarn'
 8) select step action as 'cancel and wait'
+9) click 'add step'
